@@ -1,0 +1,32 @@
+:root {
+    --nav-color: #353535;
+    --purple: #DAB5F0;
+}
+
+.navbar {
+    background-color: var(--nav-color);
+    height: fit-content;
+    padding-block: .75rem; /* 12px */
+
+    display: flex;
+
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-logo img {
+    height: 3.125rem;
+    margin-left: .75rem; /* 12px */   /* 50px */
+}
+
+.navbar-links {
+    margin-top: 1.5rem; /* 24px */
+    margin-left: .625rem; /* 10px */
+}
+
+.navbar-links a {
+    color: #FFF;
+}
+
+.purple {
+    color: var(--purple);
+}
