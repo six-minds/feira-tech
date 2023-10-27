@@ -1,6 +1,8 @@
 :root {
     --nav-color: #353535;
-    --purple: #DAB5F0;
+
+    --purple-100: #907D9C;
+    --purple-800: #DAB5F0;
 }
 
 .navbar {
@@ -9,6 +11,7 @@
     padding-block: .75rem; /* 12px */
 
     display: flex;
+    align-items: center;
 
     font-family: "Inter", sans-serif;
 }
@@ -21,6 +24,8 @@
 .navbar-links {
     margin-top: 1.5rem; /* 24px */
     margin-left: .625rem; /* 10px */
+    display: flex;
+    gap: .875rem;  /* 14px */
 }
 
 .navbar-links a {
@@ -28,5 +33,32 @@
 }
 
 .purple {
-    color: var(--purple);
+    color: var(--purple-800);
+}
+
+.navbar-links a:hover {
+    color: var(--purple-800);
+}
+
+.navbar-searchbar {
+    margin-left: 1.6875rem; /* 27px */
+    width: 100%;
+    background-color: var(--purple-100);
+    border-radius: 1.4375rem; /* 23px */
+    display: flex;
+    align-items: center;
+
+    height: fit-content;
+    padding: 4px;
+}
+
+.navbar-searchbar input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 1.125rem; /* 18px */
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    width: 100%;
 }
