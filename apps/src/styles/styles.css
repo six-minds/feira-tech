@@ -3,6 +3,7 @@
 
     --purple-100: #907D9C;
     --purple-800: #DAB5F0;
+    --purple-900: #805A97;
 }
 
 .navbar {
@@ -68,4 +69,28 @@
 
 .navbar-searchbar input::placeholder {
     color: #DAB5F0;
+}
+
+
+/* ======================= Promo ======================= */
+
+.promo {
+    background-color: #B5F0C2;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 1.2px;
+    width: fit-content;
+    display: flex;
+    padding: 4px 32px 4px 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    margin-inline: auto;
+    margin-block: 18px;
+
+}
+
+.promo span {
+    color: var(--purple-900);
 }
