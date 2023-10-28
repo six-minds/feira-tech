@@ -166,9 +166,9 @@
         path {
             fill: white;
         }
-    } & {
-        transition: all 200ms;
-    }
+
+        transition: 200ms;
+    } 
 
     input[class="size-p"]:hover + svg,
     input[class="size-p"]:checked + svg,
@@ -181,6 +181,8 @@
         path {
             fill: white;
         }
+
+        transition: 200ms;
     }
 
     input[class="size-m"]:hover + svg,
@@ -194,6 +196,8 @@
         path {
             fill: white;
         }
+
+        transition: 200ms;
     }
 
     input[class="size-g"]:hover + svg,
@@ -207,6 +211,8 @@
         path {
             fill: white;
         }
+
+        transition: 200ms;
     }
 
     input[class="size-gg"]:hover + svg,
@@ -220,6 +226,8 @@
         path {
             fill: white;
         }
+
+        transition: 200ms;
     }
 
     input[class="size-xg"]:hover + svg,
@@ -233,5 +241,7 @@
         path {
             fill: white;
         }
+
+        transition: 200ms;
     }
 }

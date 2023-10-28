@@ -121,6 +121,11 @@
   transition: all 0.2s;
 }
 
+.highlight input[class=size-pp]:hover + svg,
+.highlight input[class=size-pp]:checked + svg,
+.highlight input[class=size-pp]:focus + svg {
+  transition: 200ms;
+}
 .highlight input[class=size-pp]:hover + svg circle,
 .highlight input[class=size-pp]:checked + svg circle,
 .highlight input[class=size-pp]:focus + svg circle {
@@ -132,8 +137,10 @@
 .highlight input[class=size-pp]:focus + svg path {
   fill: white;
 }
-.highlight {
-  transition: all 200ms;
+.highlight input[class=size-p]:hover + svg,
+.highlight input[class=size-p]:checked + svg,
+.highlight input[class=size-p]:focus + svg {
+  transition: 200ms;
 }
 .highlight input[class=size-p]:hover + svg circle,
 .highlight input[class=size-p]:checked + svg circle,
@@ -146,6 +153,11 @@
 .highlight input[class=size-p]:focus + svg path {
   fill: white;
 }
+.highlight input[class=size-m]:hover + svg,
+.highlight input[class=size-m]:checked + svg,
+.highlight input[class=size-m]:focus + svg {
+  transition: 200ms;
+}
 .highlight input[class=size-m]:hover + svg circle,
 .highlight input[class=size-m]:checked + svg circle,
 .highlight input[class=size-m]:focus + svg circle {
@@ -156,6 +168,11 @@
 .highlight input[class=size-m]:checked + svg path,
 .highlight input[class=size-m]:focus + svg path {
   fill: white;
+}
+.highlight input[class=size-g]:hover + svg,
+.highlight input[class=size-g]:checked + svg,
+.highlight input[class=size-g]:focus + svg {
+  transition: 200ms;
 }
 .highlight input[class=size-g]:hover + svg circle,
 .highlight input[class=size-g]:checked + svg circle,
@@ -168,6 +185,11 @@
 .highlight input[class=size-g]:focus + svg path {
   fill: white;
 }
+.highlight input[class=size-gg]:hover + svg,
+.highlight input[class=size-gg]:checked + svg,
+.highlight input[class=size-gg]:focus + svg {
+  transition: 200ms;
+}
 .highlight input[class=size-gg]:hover + svg circle,
 .highlight input[class=size-gg]:checked + svg circle,
 .highlight input[class=size-gg]:focus + svg circle {
@@ -178,6 +200,11 @@
 .highlight input[class=size-gg]:checked + svg path,
 .highlight input[class=size-gg]:focus + svg path {
   fill: white;
+}
+.highlight input[class=size-xg]:hover + svg,
+.highlight input[class=size-xg]:checked + svg,
+.highlight input[class=size-xg]:focus + svg {
+  transition: 200ms;
 }
 .highlight input[class=size-xg]:hover + svg circle,
 .highlight input[class=size-xg]:checked + svg circle,
