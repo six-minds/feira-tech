@@ -124,13 +124,17 @@
         .highlight-info {
             font-family: "Poppins", sans-serif;
             font-size: 12px;
+            display: flex;
+            flex-direction: column;
+
         }
 
         .highlight-divider {
             width: 100%;
             height: 7px;
             background-color: $purple-800;
-            margin-block: 4px;
+            margin-top: 4px;
+            margin-bottom: 12px;
             border-radius: 30px;
         }
 
@@ -151,6 +155,10 @@
             -webkit-transition: all 0.2s;
             transition: all 0.2s;
         }
+    }
+
+    .highlight-stars {
+        margin-inline: auto;
     }
 }
 

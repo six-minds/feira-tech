@@ -99,12 +99,15 @@
 .highlight .highlight-wrapper .highlight-info {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
+  display: flex;
+  flex-direction: column;
 }
 .highlight .highlight-wrapper .highlight-divider {
   width: 100%;
   height: 7px;
   background-color: #dab5f0;
-  margin-block: 4px;
+  margin-top: 4px;
+  margin-bottom: 12px;
   border-radius: 30px;
 }
 .highlight .highlight-wrapper #radios label {
@@ -119,6 +122,9 @@
 .highlight .highlight-wrapper input[type=radio] + svg {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+}
+.highlight .highlight-stars {
+  margin-inline: auto;
 }
 
 .highlight input[class=size-pp]:hover + svg,
