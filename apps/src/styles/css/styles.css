@@ -89,8 +89,16 @@
     margin-inline: auto;
     margin-block: 18px;
 
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 .promo span {
     color: var(--purple-900);
+}
+
+/* ======================= Carousel ======================= */
+
+.carousel-wrapper {
+    background-image: url("../images/");
 }
