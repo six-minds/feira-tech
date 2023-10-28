@@ -107,5 +107,88 @@
   margin-block: 4px;
   border-radius: 30px;
 }
+.highlight .highlight-wrapper #radios label {
+  position: relative;
+}
+.highlight .highlight-wrapper input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+}
+.highlight .highlight-wrapper input[type=radio] + svg {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.highlight input[class=size-pp]:hover + svg circle,
+.highlight input[class=size-pp]:checked + svg circle,
+.highlight input[class=size-pp]:focus + svg circle {
+  fill: #dab5f0;
+  stroke: #dab5f0;
+}
+.highlight input[class=size-pp]:hover + svg path,
+.highlight input[class=size-pp]:checked + svg path,
+.highlight input[class=size-pp]:focus + svg path {
+  fill: white;
+}
+.highlight {
+  transition: all 200ms;
+}
+.highlight input[class=size-p]:hover + svg circle,
+.highlight input[class=size-p]:checked + svg circle,
+.highlight input[class=size-p]:focus + svg circle {
+  fill: #dab5f0;
+  stroke: #dab5f0;
+}
+.highlight input[class=size-p]:hover + svg path,
+.highlight input[class=size-p]:checked + svg path,
+.highlight input[class=size-p]:focus + svg path {
+  fill: white;
+}
+.highlight input[class=size-m]:hover + svg circle,
+.highlight input[class=size-m]:checked + svg circle,
+.highlight input[class=size-m]:focus + svg circle {
+  fill: #dab5f0;
+  stroke: #dab5f0;
+}
+.highlight input[class=size-m]:hover + svg path,
+.highlight input[class=size-m]:checked + svg path,
+.highlight input[class=size-m]:focus + svg path {
+  fill: white;
+}
+.highlight input[class=size-g]:hover + svg circle,
+.highlight input[class=size-g]:checked + svg circle,
+.highlight input[class=size-g]:focus + svg circle {
+  fill: #dab5f0;
+  stroke: #dab5f0;
+}
+.highlight input[class=size-g]:hover + svg path,
+.highlight input[class=size-g]:checked + svg path,
+.highlight input[class=size-g]:focus + svg path {
+  fill: white;
+}
+.highlight input[class=size-gg]:hover + svg circle,
+.highlight input[class=size-gg]:checked + svg circle,
+.highlight input[class=size-gg]:focus + svg circle {
+  fill: #dab5f0;
+  stroke: #dab5f0;
+}
+.highlight input[class=size-gg]:hover + svg path,
+.highlight input[class=size-gg]:checked + svg path,
+.highlight input[class=size-gg]:focus + svg path {
+  fill: white;
+}
+.highlight input[class=size-xg]:hover + svg circle,
+.highlight input[class=size-xg]:checked + svg circle,
+.highlight input[class=size-xg]:focus + svg circle {
+  fill: #dab5f0;
+  stroke: #dab5f0;
+}
+.highlight input[class=size-xg]:hover + svg path,
+.highlight input[class=size-xg]:checked + svg path,
+.highlight input[class=size-xg]:focus + svg path {
+  fill: white;
+}
 
 /*# sourceMappingURL=styles.css.map */

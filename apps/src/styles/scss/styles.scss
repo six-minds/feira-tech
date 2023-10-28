@@ -90,7 +90,6 @@
     margin-inline: auto;
     margin-block: 18px;
 
-
     span {
         color: $purple-900;
     }
@@ -111,7 +110,6 @@
 
 /* ======================= Highlight ======================= */
 .highlight {
-
     .highlight-wrapper {
         margin-inline: 24px;
         display: flex;
@@ -133,7 +131,107 @@
             height: 7px;
             background-color: $purple-800;
             margin-block: 4px;
-            border-radius: 30px;       
+            border-radius: 30px;
+        }
+
+        #radios {
+            label {
+                position: relative;
+            }
+        }
+
+        input[type="radio"] {
+            position: absolute;
+            opacity: 0;
+            width: 25px;
+            height: 25px;
+        }
+
+        input[type="radio"] + svg {
+            -webkit-transition: all 0.2s;
+            transition: all 0.2s;
+        }
+    }
+}
+
+.highlight{
+    input[class="size-pp"]:hover + svg,
+    input[class="size-pp"]:checked + svg,
+    input[class="size-pp"]:focus + svg {
+        circle {
+            fill: $purple-800;
+            stroke: $purple-800;
+        }
+
+        path {
+            fill: white;
+        }
+    } & {
+        transition: all 200ms;
+    }
+
+    input[class="size-p"]:hover + svg,
+    input[class="size-p"]:checked + svg,
+    input[class="size-p"]:focus + svg {
+        circle {
+            fill: $purple-800;
+            stroke: $purple-800;
+        }
+
+        path {
+            fill: white;
+        }
+    }
+
+    input[class="size-m"]:hover + svg,
+    input[class="size-m"]:checked + svg,
+    input[class="size-m"]:focus + svg {
+        circle {
+            fill: $purple-800;
+            stroke: $purple-800;
+        }
+
+        path {
+            fill: white;
+        }
+    }
+
+    input[class="size-g"]:hover + svg,
+    input[class="size-g"]:checked + svg,
+    input[class="size-g"]:focus + svg {
+        circle {
+            fill: $purple-800;
+            stroke: $purple-800;
+        }
+
+        path {
+            fill: white;
+        }
+    }
+
+    input[class="size-gg"]:hover + svg,
+    input[class="size-gg"]:checked + svg,
+    input[class="size-gg"]:focus + svg {
+        circle {
+            fill: $purple-800;
+            stroke: $purple-800;
+        }
+
+        path {
+            fill: white;
+        }
+    }
+
+    input[class="size-xg"]:hover + svg,
+    input[class="size-xg"]:checked + svg,
+    input[class="size-xg"]:focus + svg {
+        circle {
+            fill: $purple-800;
+            stroke: $purple-800;
+        }
+
+        path {
+            fill: white;
         }
     }
 }

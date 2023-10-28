@@ -16,4 +16,8 @@ input {
   border: none;
 }
 
+input + svg {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=global.css.map */
