@@ -252,12 +252,37 @@
 
 /* ======================= Promo Dragon ======================= */
 .promo-dragon {
-  margin-top: 32px;
+  margin-block: 32px;
   padding-block: 8px;
   border-block: 2px solid #353535;
 }
 .promo-dragon img {
   width: 100vw;
+  min-width: 432px;
+}
+
+/* ======================= Products ======================= */
+.products-wrapper {
+  margin-inline: auto;
+  width: fit-content;
+  display: flex;
+}
+.products-wrapper .products-display {
+  display: flex;
+}
+
+.product-image {
+  border: 4px solid #C8ABDB;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 15px;
+}
+.product-image img {
+  width: 70px;
+}
+
+.product-card {
+  width: 150px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -284,11 +284,39 @@
 /* ======================= Promo Dragon ======================= */
 
 .promo-dragon {
-    margin-top: 32px;
+    margin-block: 32px;
     padding-block: 8px;
     border-block: 2px solid #353535;
 
     img {
         width: 100vw;
+        min-width: 432px;
     }
+}
+
+/* ======================= Products ======================= */
+
+.products-wrapper {
+    margin-inline: auto;
+    width: fit-content;
+    display: flex;
+
+    .products-display {
+        display: flex;
+    }
+}
+
+.product-image {
+    img {
+        width: 70px;  
+    }
+
+    border: 4px solid $purple-700;
+    width: fit-content;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+.product-card {
+    width: 150px;
 }
