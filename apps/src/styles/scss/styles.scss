@@ -126,7 +126,6 @@
             font-size: 12px;
             display: flex;
             flex-direction: column;
-
         }
 
         .highlight-divider {
@@ -162,7 +161,7 @@
     }
 }
 
-.highlight{
+.highlight {
     input[class="size-pp"]:hover + svg,
     input[class="size-pp"]:checked + svg,
     input[class="size-pp"]:focus + svg {
@@ -176,7 +175,7 @@
         }
 
         transition: 200ms;
-    } 
+    }
 
     input[class="size-p"]:hover + svg,
     input[class="size-p"]:checked + svg,
@@ -251,5 +250,33 @@
         }
 
         transition: 200ms;
+    }
+}
+
+.highlight-price {
+    text-align: center;
+    margin-top: 4px;
+
+    span {
+        font-family: "Inter", sans-serif;
+        font-size: 1.25rem;
+    }
+}
+
+.highlight-buy {
+    margin-inline: auto;
+    margin-top: 12px;
+
+    button {
+        background-color: $green-500;
+        padding: 9px 32px 9px 32px;
+        border-radius: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        transition: 200ms;
+    }
+    & button:hover {
+        background-color: $purple-800;
+        color: white;
     }
 }

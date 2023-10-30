@@ -224,4 +224,30 @@
   fill: white;
 }
 
+.highlight-price {
+  text-align: center;
+  margin-top: 4px;
+}
+.highlight-price span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+}
+
+.highlight-buy {
+  margin-inline: auto;
+  margin-top: 12px;
+}
+.highlight-buy button {
+  background-color: #B5F0C2;
+  padding: 9px 32px 9px 32px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  transition: 200ms;
+}
+.highlight-buy button:hover {
+  background-color: #dab5f0;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
