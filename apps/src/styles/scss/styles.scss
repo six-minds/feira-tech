@@ -326,6 +326,10 @@
 .product-card {
     width: 150px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     .product-infos {
         span {
             font-family: "Lato", sans-serif;
