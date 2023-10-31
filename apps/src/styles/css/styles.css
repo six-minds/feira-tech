@@ -332,4 +332,19 @@
   margin-top: 24px;
 }
 
+/* ======================= Footer ======================= */
+footer {
+  margin-top: 50px;
+}
+footer .footer-purple {
+  background-color: #dab5f0;
+  width: 100vw;
+  height: 18px;
+}
+footer .footer-black {
+  background-color: #353535;
+  width: 100vw;
+  height: 50px;
+}
+
 /*# sourceMappingURL=styles.css.map */

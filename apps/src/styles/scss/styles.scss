@@ -376,3 +376,20 @@
 .products-divider {
     margin-top: 24px;
 }
+
+/* ======================= Footer ======================= */
+
+footer {
+    margin-top: 50px;
+
+    .footer-purple {
+        background-color: $purple-800;
+        width: 100vw;
+        height: 18px;
+    }
+    .footer-black {
+        background-color: $nav-color;
+        width: 100vw;
+        height: 50px;
+    }
+}
