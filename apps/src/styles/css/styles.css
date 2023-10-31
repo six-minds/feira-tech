@@ -272,6 +272,7 @@
 .products-wrapper .products-display {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .product-image {
