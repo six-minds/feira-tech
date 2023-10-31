@@ -8,10 +8,11 @@
 .navbar {
   background-color: var(--nav-color);
   height: fit-content;
-  padding-block: 0.75rem; /* 12px */
+  padding-block: 12px; /* 12px */
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-width: 100vw;
   font-family: "Inter", sans-serif;
 }
 .navbar .navbar-logo img {
@@ -85,6 +86,10 @@
 }
 
 /* ======================= Carousel ======================= */
+.section-divider {
+  width: 100vw;
+}
+
 /* ======================= Highlight ======================= */
 .highlight .highlight-wrapper {
   margin-inline: 24px;
