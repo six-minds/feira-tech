@@ -263,15 +263,19 @@
 
 /* ======================= Products ======================= */
 .products-wrapper {
+  margin-top: 24px;
   margin-inline: auto;
   width: fit-content;
   display: flex;
+  align-items: center;
 }
 .products-wrapper .products-display {
   display: flex;
+  justify-content: space-between;
 }
 
 .product-image {
+  margin-inline: auto;
   border: 4px solid #C8ABDB;
   width: fit-content;
   padding: 8px 12px;
@@ -283,6 +287,41 @@
 
 .product-card {
   width: 150px;
+}
+.product-card .product-infos span {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+.product-card .product-infos .product-divider {
+  width: 100%;
+  height: 7px;
+  background-color: #dab5f0;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border-radius: 30px;
+}
+.product-card .product-price {
+  text-align: center;
+}
+.product-card .product-price span {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+.product-card .product-buy {
+  text-align: center;
+  margin-top: 8px;
+}
+.product-card .product-buy button {
+  background-color: #B5F0C2;
+  padding: 9px 32px 9px 32px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  transition: 200ms;
+}
+.product-card .product-buy button:hover {
+  background-color: #dab5f0;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
