@@ -28,4 +28,8 @@ button {
   cursor: pointer;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*# sourceMappingURL=global.css.map */
