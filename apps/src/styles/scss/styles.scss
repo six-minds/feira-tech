@@ -541,3 +541,79 @@ footer {
         color: $purple-900;
     }
 }
+
+/* ======================= Desktop Product ======================= */
+
+.desktop-product-img {
+    img {
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    border: 8px solid $purple-700;
+    border-radius: 16px;
+    width: fit-content;
+}
+
+.desktop-products-wrapper {
+    display: flex;
+}
+
+.desktop-product-info {
+    p {
+        font-family: "Lato", sans-serif;
+        font-size: 27px;
+        color: black;
+        text-align: center;
+    }
+
+    span {
+        color: black;
+        font-family: "Inter", sans-serif;
+        font-size: 40px; 
+    }
+
+}
+
+.desktop-product-divider {
+    background-color: $purple-800;
+    height: 10px;
+    width: 100%;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    border-radius: 23px;
+}
+
+.desktop-product-star {
+    margin-top: 20px;
+}
+
+.desktop-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        font-family: "Poppins", sans-serif;
+        font-size: 27px;
+        padding-block: 28px;
+        margin-top: 32px;
+        padding-inline: 32px;
+        background-color: $green-500;
+        border-radius: 75px;
+        color: black;
+        font-weight: 500;
+
+    }
+}
+
+.desktop-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.desktop-products-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
