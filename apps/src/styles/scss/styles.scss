@@ -602,7 +602,11 @@ footer {
         border-radius: 75px;
         color: black;
         font-weight: 500;
+        transition: 200ms;
 
+    } & button:hover {
+        background-color: $purple-800;
+        color: white;
     }
 }
 
