@@ -9,10 +9,12 @@
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
-}
+html{
+   a {
+        text-decoration: none;
+        color: #000;
+    }
+} 
 
 input {
     outline: none;
@@ -32,4 +34,11 @@ button {
 
 html {
     scroll-behavior: smooth;
+}
+
+
+.navbar-searchbar {
+    input {
+        font-size: 14px;
+    }
 }
