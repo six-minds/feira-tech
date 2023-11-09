@@ -602,11 +602,7 @@ footer {
         border-radius: 75px;
         color: black;
         font-weight: 500;
-        transition: 200ms;
 
-    } & button:hover {
-        background-color: $purple-800;
-        color: white;
     }
 }
 
@@ -620,4 +616,10 @@ footer {
 .desktop-products-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    display: block;
+    align-items: center;
+    margin: auto;
 }

@@ -525,11 +525,6 @@ footer .footer-black {
   border-radius: 75px;
   color: black;
   font-weight: 500;
-  transition: 200ms;
-}
-.desktop-buy button:hover {
-  background-color: #dab5f0;
-  color: white;
 }
 
 .desktop-product {
@@ -542,6 +537,12 @@ footer .footer-black {
 .desktop-products-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+  display: block;
+  align-items: center;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
