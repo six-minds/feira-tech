@@ -563,4 +563,15 @@ footer .footer-black {
   font-size: 20px;
 }
 
+.sobre-nos {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-nos img {
+  width: 50%;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */

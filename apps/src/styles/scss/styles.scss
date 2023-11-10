@@ -641,3 +641,14 @@ footer {
         font-size: 20px;
     }
 }
+
+.sobre-nos {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 50%;
+        text-align: center;
+    }
+}
