@@ -348,7 +348,8 @@ footer .footer-purple {
 footer .footer-black {
   background-color: #353535;
   width: 100vw;
-  height: 50px;
+  height: fit-content;
+  padding-bottom: 16px;
 }
 
 /* ======================= Dividers ======================= */
@@ -543,6 +544,23 @@ footer .footer-black {
   display: block;
   align-items: center;
   margin: auto;
+}
+
+.desktop-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-infos {
+  margin-inline: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-infos span {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
